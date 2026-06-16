@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>P06项目评估报告</title>
+<style>
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #1a1a1a;
+    background: #fff;
+    padding: 48px 56px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #1e3a5f;
+    padding-bottom: 10px;
+    margin: 0 0 6px 0;
+  }
+  h1 + p {
+    color: #6b7280;
+    font-size: 12px;
+    margin: 0 0 28px 0;
+  }
+  h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #1e3a5f;
+    padding: 6px 14px;
+    margin: 32px 0 12px 0;
+    border-radius: 3px;
+  }
+  h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1e3a5f;
+    margin: 20px 0 8px 0;
+    padding-left: 8px;
+    border-left: 3px solid #1e3a5f;
+  }
+  p { margin: 6px 0 10px 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 20px 0;
+    font-size: 12px;
+  }
+  th {
+    background: #1e3a5f;
+    color: #fff;
+    padding: 8px 12px;
+    text-align: left;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  td {
+    padding: 7px 12px;
+    border: 1px solid #d1d5db;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f8fafc; }
+  strong { font-weight: 600; }
+  hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 28px 0;
+  }
+  ol, ul { margin: 6px 0 10px 20px; }
+  li { margin: 3px 0; }
+  @media print {
+    body { padding: 24px 32px; }
+    h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    table { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<h1>P06 汽车大灯注塑件项目评估报告</h1>
+<p>数据来源：模具式样书 × 4份 + STP 3D模型文件
+生成日期：2026-06-16</p>
+<hr />
+<h2>一、关键信息速览</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>零件数量</td>
+<td>4种（前雾灯光导、近光灯光导、远光灯光导、远光辅助光导）</td>
+</tr>
+<tr>
+<td>模具套数</td>
+<td>4套，全部单色模，全部一模2出（L+R）</td>
+</tr>
+<tr>
+<td>所需机台吨位</td>
+<td>320T（客户指定）</td>
+</tr>
+<tr>
+<td>注塑周期</td>
+<td>120秒/模次</td>
+</tr>
+<tr>
+<td>产品性质</td>
+<td>光学透明件，比普通外观件要求更高</td>
+</tr>
+<tr>
+<td>原材料</td>
+<td>PC LED2245（科思创，光学级透明）约 45元/kg</td>
+</tr>
+<tr>
+<td>客户月需求</td>
+<td>6000套（"套"定义待确认），模具费用分摊</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>二、你现有机台能否承接</h2>
+<table>
+<thead>
+<tr>
+<th>机台</th>
+<th>数量</th>
+<th>能否使用</th>
+<th>建议分配</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>320T</td>
+<td>1台</td>
+<td>完全匹配</td>
+<td>前雾灯光导</td>
+</tr>
+<tr>
+<td>380T</td>
+<td>2台</td>
+<td>可用，需确认两点（见下）</td>
+<td>近光灯光导 / 远光灯+辅助光导轮换</td>
+</tr>
+<tr>
+<td>合计 3台</td>
+<td></td>
+<td>足够，月利用率约40%</td>
+<td>无需增购机台</td>
+</tr>
+</tbody>
+</table>
+<p>380T 用于 320T 模具，需提前确认：
+1. 模具外形尺寸能放入 380T 拉杆间距（客户尚未提供模具外形数据）
+2. 每模注射量不低于 380T 料筒容量 30%，否则 PC 光学料在机筒内停留过久会降解变黄</p>
+<hr />
+<h2>三、零件总览</h2>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>零件名称</th>
+<th>材料</th>
+<th>颜色</th>
+<th>模具类型</th>
+<th>腔数</th>
+<th>机台吨位</th>
+<th>注塑周期</th>
+<th>模具寿命</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>前雾灯光导</td>
+<td>PC LED2245（科思创）</td>
+<td>无色透明</td>
+<td>单色模</td>
+<td>一模2出 L+R</td>
+<td>320T</td>
+<td>120s</td>
+<td>待填写</td>
+</tr>
+<tr>
+<td>2</td>
+<td>近光灯灯光导</td>
+<td>PC LED2245（科思创）</td>
+<td>无色透明</td>
+<td>单色模</td>
+<td>一模2出 L+R</td>
+<td>320T</td>
+<td>120s</td>
+<td>30万次</td>
+</tr>
+<tr>
+<td>3</td>
+<td>远光灯灯光导</td>
+<td>PC LED2245（科思创）</td>
+<td>无色透明</td>
+<td>单色模</td>
+<td>一模2出 L+R</td>
+<td>320T</td>
+<td>120s</td>
+<td>30万次</td>
+</tr>
+<tr>
+<td>4</td>
+<td>远光辅助光导</td>
+<td>PC LED2245（科思创）</td>
+<td>无色透明</td>
+<td>单色模</td>
+<td>一模2出 L+R</td>
+<td>320T</td>
+<td>120s</td>
+<td>30万次</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、生产1套的资源消耗</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>数值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机器时间（3台并行）</td>
+<td>120秒 = 2分钟/套</td>
+<td>3台同时跑，第4套轮换排产</td>
+</tr>
+<tr>
+<td>机器时间（单台顺序）</td>
+<td>480秒 = 8分钟/套</td>
+<td>4套模具依次在1台机上跑</td>
+</tr>
+<tr>
+<td>每套原材料用量</td>
+<td>约 0.58–1.16 kg</td>
+<td>估算，实际重量需NX打开STP量取</td>
+</tr>
+<tr>
+<td>每套材料成本（含损耗）</td>
+<td>约 28–56 元/套</td>
+<td>基于45元/kg，含8%水口料损耗</td>
+</tr>
+<tr>
+<td>月用料总量（6000套）</td>
+<td>约 3.5–7 吨/月</td>
+<td></td>
+</tr>
+<tr>
+<td>月材料总成本（6000套）</td>
+<td>约 17–34 万元/月</td>
+<td>估算</td>
+</tr>
+</tbody>
+</table>
+<h3>各零件材料费明细（估算，实际以零件重量为准）</h3>
+<table>
+<thead>
+<tr>
+<th>零件</th>
+<th>单件重量估算</th>
+<th>1套用量（L+R）</th>
+<th>材料费</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>前雾灯光导</td>
+<td>60–120g</td>
+<td>120–240g</td>
+<td>5–11元</td>
+</tr>
+<tr>
+<td>近光灯光导</td>
+<td>80–160g</td>
+<td>160–320g</td>
+<td>7–14元</td>
+</tr>
+<tr>
+<td>远光灯光导</td>
+<td>100–200g</td>
+<td>200–400g</td>
+<td>9–18元</td>
+</tr>
+<tr>
+<td>远光辅助光导</td>
+<td>50–100g</td>
+<td>100–200g</td>
+<td>5–9元</td>
+</tr>
+<tr>
+<td>合计</td>
+<td>—</td>
+<td>580–1,160g</td>
+<td>26–52元/套</td>
+</tr>
+<tr>
+<td>含水口损耗（+8%）</td>
+<td>—</td>
+<td>626–1,253g</td>
+<td>约 28–56元/套</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>五、产品性质说明</h2>
+<p>这4个零件均为汽车大灯内部的光导（Light Guide / 导光条），是LED灯组中传导和分配光线的核心元件。</p>
+<table>
+<thead>
+<tr>
+<th>判断依据</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>材料</td>
+<td>PC LED2245，科思创LED专用光学级，无色全透明</td>
+</tr>
+<tr>
+<td>表面抛光</td>
+<td>定模+动模两侧均需 3 mic.diam 镜面抛光</td>
+</tr>
+<tr>
+<td>无皮纹</td>
+<td>光学面不能有纹路，否则导光效果失效</td>
+</tr>
+<tr>
+<td>模仁钢材</td>
+<td>2343 ESR 电渣重熔钢，48–50 HRC，光学模具最高配置</td>
+</tr>
+</tbody>
+</table>
+<p>一句话：不是外观件，是光学精度件，要求比汽车A级外观面更严。</p>
+<hr />
+<h2>六、模具关键技术参数</h2>
+<table>
+<thead>
+<tr>
+<th>参数项</th>
+<th>前雾灯光导</th>
+<th>近光灯光导</th>
+<th>远光灯光导</th>
+<th>远光辅助光导</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>热流道品牌</td>
+<td>恒道</td>
+<td>恒道</td>
+<td>恒道</td>
+<td>恒道</td>
+</tr>
+<tr>
+<td>热流道类型</td>
+<td>热流道+冷流道</td>
+<td>纯热流道</td>
+<td>纯热流道</td>
+<td>纯热流道</td>
+</tr>
+<tr>
+<td>浇口形式</td>
+<td>侧浇口</td>
+<td>潜浇口</td>
+<td>点浇口（热嘴）</td>
+<td>潜浇口</td>
+</tr>
+<tr>
+<td>阀针驱动</td>
+<td>气动</td>
+<td>气动</td>
+<td>气动</td>
+<td>气动</td>
+</tr>
+<tr>
+<td>模仁钢材</td>
+<td>2343 ESR</td>
+<td>2343 ESR</td>
+<td>2343 ESR</td>
+<td>2343 ESR</td>
+</tr>
+<tr>
+<td>模仁硬度</td>
+<td>48–50 HRC</td>
+<td>48–50 HRC</td>
+<td>48–50 HRC</td>
+<td>48–50 HRC</td>
+</tr>
+<tr>
+<td>钢材品牌</td>
+<td>宝钢凌力 SW2343ESR-L</td>
+<td>宝钢凌力 SW2343ESR-L</td>
+<td>宝钢凌力 SW2343ESR-L</td>
+<td>宝钢凌力 SW2343ESR-L</td>
+</tr>
+<tr>
+<td>抛光等级</td>
+<td>3 mic.diam（定+动模）</td>
+<td>3 mic.diam（定+动模）</td>
+<td>3 mic.diam（定+动模）</td>
+<td>3 mic.diam（定+动模）</td>
+</tr>
+<tr>
+<td>定模皮纹</td>
+<td>无</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+</tr>
+<tr>
+<td>动模皮纹</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+</tr>
+<tr>
+<td>顶出方式</td>
+<td>油缸顶出</td>
+<td>机械顶出</td>
+<td>机械顶出</td>
+<td>机械顶出</td>
+</tr>
+<tr>
+<td>复位方式</td>
+<td>油缸复位</td>
+<td>弹簧复位</td>
+<td>弹簧复位</td>
+<td>弹簧复位</td>
+</tr>
+<tr>
+<td>冷却方式</td>
+<td>水冷，左右独立</td>
+<td>水冷，左右独立</td>
+<td>水冷，左右独立</td>
+<td>水冷，左右独立</td>
+</tr>
+<tr>
+<td>模具寿命</td>
+<td>待填写</td>
+<td>30万次</td>
+<td>30万次</td>
+<td>30万次</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>七、模具费用估算</h2>
+<p>以下为 AI 粗略估算，缺乏实际零件尺寸、重量和模具厂报价，误差较大，仅供参考。</p>
+<h3>单套模具费用拆分</h3>
+<table>
+<thead>
+<tr>
+<th>费用项</th>
+<th>前雾灯光导</th>
+<th>其余3套（各）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>模架（S50C A/B板）</td>
+<td>3–5万</td>
+<td>3–5万</td>
+</tr>
+<tr>
+<td>模仁钢材（2343 ESR，L+R 4块）</td>
+<td>6–10万</td>
+<td>6–10万</td>
+</tr>
+<tr>
+<td>CNC + EDM 加工</td>
+<td>5–8万</td>
+<td>5–8万</td>
+</tr>
+<tr>
+<td>镜面抛光（光导复杂曲面）</td>
+<td>8–15万</td>
+<td>8–15万</td>
+</tr>
+<tr>
+<td>恒道热流道（阀针，L+R 2点）</td>
+<td>6–10万</td>
+<td>8–12万</td>
+</tr>
+<tr>
+<td>油缸顶出系统</td>
+<td>2–4万</td>
+<td>—</td>
+</tr>
+<tr>
+<td>标准件 + 备件</td>
+<td>1–2万</td>
+<td>1–2万</td>
+</tr>
+<tr>
+<td>试模 + 调试</td>
+<td>2–3万</td>
+<td>2–3万</td>
+</tr>
+<tr>
+<td>单套合计</td>
+<td>33–57万</td>
+<td>33–55万</td>
+</tr>
+</tbody>
+</table>
+<h3>4套模具总费用</h3>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>估算金额</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>乐观（结构简单，内地模厂）</td>
+<td>约 130万</td>
+</tr>
+<tr>
+<td>中性</td>
+<td>约 170万</td>
+</tr>
+<tr>
+<td>保守（光导复杂，沿海模厂）</td>
+<td>约 220万</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>八、待确认信息</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>待确认项</th>
+<th>影响什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>"套"的定义（L+R一对 还是 4种光导全套）</td>
+<td>产能规划、机台安排</td>
+</tr>
+<tr>
+<td>2</td>
+<td>各零件单件重量（请对方提供BOM件重表）</td>
+<td>材料成本核算</td>
+</tr>
+<tr>
+<td>3</td>
+<td>380T拉杆间距 vs 模具外形尺寸</td>
+<td>380T能否直接上模</td>
+</tr>
+<tr>
+<td>4</td>
+<td>模具分摊方式（首款比例、摊销件数、中途终止如何处理）</td>
+<td>资金风险</td>
+</tr>
+<tr>
+<td>5</td>
+<td>整车厂是哪家</td>
+<td>质量标准、付款周期</td>
+</tr>
+<tr>
+<td>6</td>
+<td>目标量产时间</td>
+<td>开模周期够不够（通常3–5个月）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>良品率要求</td>
+<td>报废成本估算</td>
+</tr>
+<tr>
+<td>8</td>
+<td>前雾灯光导模具寿命要求</td>
+<td>钢材和热处理方案</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>九、STP 模型文件说明</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>信息</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文件名</td>
+<td>P06_HL_注塑件_20260611.stp</td>
+</tr>
+<tr>
+<td>文件大小</td>
+<td>14MB</td>
+</tr>
+<tr>
+<td>生成软件</td>
+<td>Siemens NX 10.0</td>
+</tr>
+<tr>
+<td>文件内容</td>
+<td>P06前大灯全部注塑件（L+R合并在一个文件）</td>
+</tr>
+<tr>
+<td>实体数量</td>
+<td>5个独立实体</td>
+</tr>
+<tr>
+<td>整体包络尺寸</td>
+<td>763 × 1,432 × 695 mm（含左右件）</td>
+</tr>
+<tr>
+<td>单侧尺寸推算</td>
+<td>763 × 716 × 695 mm</td>
+</tr>
+<tr>
+<td>曲面总数</td>
+<td>3,781个（平均每件约 540 个面，中高复杂度）</td>
+</tr>
+<tr>
+<td>无法读取</td>
+<td>单件重量、单件体积（需用 NX/CATIA 打开量取）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>本报告由 AI 辅助生成，模具费用及材料成本估算部分仅供参考，请以实际厂家报价和零件重量数据为准。</p>
+</body>
+</html>
