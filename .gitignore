@@ -1,1 +1,10 @@
 .DS_Store
+
+# 大型CAD三维数据（超GitHub 100MB限制，本地保留不入库）
+*.stp
+*.step
+*.stl
+
+# Excel/Office临时锁文件
+~$*
+.~lock.*
