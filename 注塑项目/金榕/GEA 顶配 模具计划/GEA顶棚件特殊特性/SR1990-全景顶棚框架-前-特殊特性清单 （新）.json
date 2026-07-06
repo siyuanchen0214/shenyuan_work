@@ -1,0 +1,469 @@
+{
+  "成品 特性": {
+    "零件名称": null,
+    "零件号": null,
+    "成品重量_kg": null,
+    "毛坯重量_kg": null,
+    "总采购量_万件": null,
+    "能耗单价_元kwh": null,
+    "废品率": null,
+    "年生产天数": null,
+    "材料": [
+      {
+        "材料名称": "按图纸 PT2/PT4/PT5",
+        "规格": "三坐标",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "按图纸坐标 + 公差 ±2.5/8.5、±4.5/8.5",
+        "规格": "三坐标",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "按图纸 M52/M33/N54/M38",
+        "规格": "三坐标",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "2.5-8.48，公差 ±0.5/5.5",
+        "规格": "卡尺 / 测厚仪",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "85.2g（± 允许偏差）",
+        "规格": "电子秤",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "无变形、毛刺、色差、破损",
+        "规格": "目视 / 光源箱",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "刻印 739102097R、011",
+        "规格": "目视",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      }
+    ],
+    "材料费合计": null,
+    "模具": [],
+    "模具摊销合计": null,
+    "工序": [],
+    "人工合计": null,
+    "折旧合计": null,
+    "能耗合计": null,
+    "直接工资": null,
+    "废品费用": null,
+    "管理费用": null,
+    "运输费用": null,
+    "包装费用": null,
+    "成本价": null,
+    "利润率": null,
+    "利润": null,
+    "未税报价": null,
+    "增值税13%": null,
+    "含税总价": null
+  },
+  "原材料特性": {
+    "零件名称": null,
+    "零件号": null,
+    "成品重量_kg": null,
+    "毛坯重量_kg": null,
+    "总采购量_万件": null,
+    "能耗单价_元kwh": null,
+    "废品率": null,
+    "年生产天数": null,
+    "材料": [
+      {
+        "材料名称": "收缩率符合内饰标准",
+        "规格": "收缩率测试仪",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "泰伯尔测试失重＜0.2g",
+        "规格": "耐磨测试仪",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "符合汽车内饰 VOC 标准",
+        "规格": "VOC 检测仪",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "按图纸要求",
+        "规格": "测厚仪",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      }
+    ],
+    "材料费合计": null,
+    "模具": [],
+    "模具摊销合计": null,
+    "工序": [],
+    "人工合计": null,
+    "折旧合计": null,
+    "能耗合计": null,
+    "直接工资": null,
+    "废品费用": null,
+    "管理费用": null,
+    "运输费用": null,
+    "包装费用": null,
+    "成本价": null,
+    "利润率": null,
+    "利润": null,
+    "未税报价": null,
+    "增值税13%": null,
+    "含税总价": null
+  },
+  "过程特性": {
+    "零件名称": null,
+    "零件号": null,
+    "成品重量_kg": null,
+    "毛坯重量_kg": null,
+    "总采购量_万件": null,
+    "能耗单价_元kwh": null,
+    "废品率": null,
+    "年生产天数": null,
+    "材料": [
+      {
+        "材料名称": "按图纸所有基准 / 测试点",
+        "规格": "三坐标",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "对位准确、无松动",
+        "规格": "工装 / 卡尺",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "按内饰外观标准",
+        "规格": "目视 / 检具",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "零件号清晰完整",
+        "规格": "刻印设备 / 目视",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      }
+    ],
+    "材料费合计": null,
+    "模具": [],
+    "模具摊销合计": null,
+    "工序": [],
+    "人工合计": null,
+    "折旧合计": null,
+    "能耗合计": null,
+    "直接工资": null,
+    "废品费用": null,
+    "管理费用": null,
+    "运输费用": null,
+    "包装费用": null,
+    "成本价": null,
+    "利润率": null,
+    "利润": null,
+    "未税报价": null,
+    "增值税13%": null,
+    "含税总价": null
+  },
+  "常规": {
+    "零件名称": null,
+    "零件号": null,
+    "成品重量_kg": null,
+    "毛坯重量_kg": null,
+    "总采购量_万件": null,
+    "能耗单价_元kwh": null,
+    "废品率": null,
+    "年生产天数": null,
+    "材料": [
+      {
+        "材料名称": "符合GB 8410-2019可燃性法规\n Compliant with flammability regulations GB 8410-2019",
+        "规格": "安全&法规Security&Regulations",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "符合ISO12219规定的VOC限制值要求\nCompliant with VOC limit requirements specified in ISO12219",
+        "规格": "法规Regulations",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "符合VDA270@65气味水平法规要求\n Compliant with odor level regulation VDA270@65",
+        "规格": "法规Regulations",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "符合DIN75201-2011雾化要求\n Compliant with fogging requirements DIN75201-2011 ",
+        "规格": "安全&法规Security&Regulations",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "≥875/m",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "0.1-0.45s",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "0.5-1.2s",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "4-6Bar",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "170±10℃",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "160±10℃",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "170±10℃",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "30±5g",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "13±2MPA",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "25±2s",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "35±5℃",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "13±2s",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      },
+      {
+        "材料名称": "10±2Mpa",
+        "规格": "重要特性 Significant Character",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      }
+    ],
+    "材料费合计": null,
+    "模具": [],
+    "模具摊销合计": null,
+    "工序": [
+      {
+        "设备": "2D图纸标识\n2D Drawing Identification",
+        "周期_秒": null,
+        "单件台时_h": null,
+        "操作人数": null,
+        "工时单价_元h": null,
+        "稼动率": null,
+        "人工费_元件": null,
+        "设备价_万元": null,
+        "折旧_元件": null,
+        "功率_kw": null,
+        "能耗利用率": null,
+        "能耗费_元件": null
+      },
+      {
+        "设备": "TBD",
+        "周期_秒": null,
+        "单件台时_h": null,
+        "操作人数": null,
+        "工时单价_元h": null,
+        "稼动率": null,
+        "人工费_元件": null,
+        "设备价_万元": null,
+        "折旧_元件": null,
+        "功率_kw": null,
+        "能耗利用率": null,
+        "能耗费_元件": null
+      }
+    ],
+    "人工合计": null,
+    "折旧合计": null,
+    "能耗合计": null,
+    "直接工资": null,
+    "废品费用": null,
+    "管理费用": null,
+    "运输费用": null,
+    "包装费用": null,
+    "成本价": null,
+    "利润率": null,
+    "利润": null,
+    "未税报价": null,
+    "增值税13%": null,
+    "含税总价": null
+  },
+  "KPC(前门门框加强板） (2)": {
+    "零件名称": null,
+    "零件号": null,
+    "成品重量_kg": null,
+    "毛坯重量_kg": null,
+    "总采购量_万件": null,
+    "能耗单价_元kwh": null,
+    "废品率": null,
+    "年生产天数": null,
+    "材料": [
+      {
+        "材料名称": "签 名",
+        "规格": "日  期",
+        "净用量_kg": null,
+        "耗用率": null,
+        "单价_元kg": null,
+        "材料费_元件": null
+      }
+    ],
+    "材料费合计": null,
+    "模具": [
+      {
+        "模具名称": "签 名",
+        "模具价格_万元": null,
+        "穴数": null,
+        "寿命_万模": null,
+        "分摊数量_万件": null,
+        "单件分摊_元": null
+      }
+    ],
+    "模具摊销合计": null,
+    "工序": [
+      {
+        "设备": "签 名",
+        "周期_秒": null,
+        "单件台时_h": null,
+        "操作人数": null,
+        "工时单价_元h": null,
+        "稼动率": null,
+        "人工费_元件": null,
+        "设备价_万元": null,
+        "折旧_元件": null,
+        "功率_kw": null,
+        "能耗利用率": null,
+        "能耗费_元件": null
+      }
+    ],
+    "人工合计": null,
+    "折旧合计": null,
+    "能耗合计": null,
+    "直接工资": null,
+    "废品费用": null,
+    "管理费用": null,
+    "运输费用": null,
+    "包装费用": null,
+    "成本价": null,
+    "利润率": null,
+    "利润": null,
+    "未税报价": null,
+    "增值税13%": null,
+    "含税总价": null
+  }
+}
